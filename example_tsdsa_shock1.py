@@ -9,7 +9,7 @@ import importlib, os
 
 importlib.reload(ts1)
 
-data_path  = "/Users/rubaiyakhondokershikha/work/TSDA/Accelerated spectra/AC_H3_EPM_614092.csv"
+data_path  = "AC_H3_EPM_614092.csv"
 shock_time = "1998-08-26 06:20:55"
 speed_km_s = 668.0
 
@@ -33,7 +33,7 @@ df = ts1.add_distance_from_shock(df, shock_time, speed_km_s)
 results = ts1.fit_channels(df, channels, labels)
 
 # ---------- FIX HERE ----------
-outdir = "/Users/rubaiyakhondokershikha/work/TSDA/AES_Final_Project/figures"
+outdir = "figures"
 os.makedirs(outdir, exist_ok=True)
 # ------------------------------
 
