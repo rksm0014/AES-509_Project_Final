@@ -1,7 +1,7 @@
 Copyright (c) 2025 Rubaiya
 All Rights Reserved.
 
-This code is provided only for academic evaluation by [Professor's Name].
+This code is provided only for academic evaluation by [Pbitzer].
 Redistribution, copying, or modification of this software is prohibited
 without written permission from the author.
 
