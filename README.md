@@ -153,12 +153,14 @@ This script is the single point of execution required by the rubric.
 Since SciPy does not provide the Mittag–Leffler function for general parameters,
 the project includes **custom implementations**:
 
-- `special_functions/mittag_leffler.py`
-- `special_functions/ml.py`
-- `special_functions/mlinternational.py`
+The project includes three custom Mittag–Leffler function files located in the repository:
 
-These modules ensure stable and accurate evaluation of:
-Eβ(z)
+- mittag_leffler.py  
+- ml.py  
+- ml_internal.py  
+
+These implement Eβ(z) needed for TSDSA modeling.
+
 
 where β = α − 1
 
