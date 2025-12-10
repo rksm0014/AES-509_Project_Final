@@ -164,8 +164,7 @@ These implement Eβ(z) needed for TSDSA modeling.
 
 where β = α − 1
 
----
-
+--
 ## 📁 Folder Structure (Rubric-Compliant)
 
 ```
@@ -175,13 +174,12 @@ AES-509_Project_Final/
 ├── example_tsdsa_shock1.py        # Reproducible example script
 ├── README.md                      # This documentation
 ├── requirements.txt               # Python dependencies
-├── LICENSE                        # License information
+├── LICENSE.txt                    # License information
 ├── .gitignore                     # Version control hygiene
 │
-├── special_functions/             # Mittag–Leffler implementations
-│     ├── mittag_leffler.py
-│     ├── ml.py
-│     └── mlinternational.py
+├── mittag_leffler.py              # Custom Mittag–Leffler implementation
+├── ml.py                          # Supporting Mittag–Leffler functions
+├── ml_internal.py                 # Low-level helper routines
 │
 ├── figures/                       # Generated plots
 │     ├── tsdsa1_profiles_P2_P5.png
@@ -191,6 +189,7 @@ AES-509_Project_Final/
 │
 └── data/                          # Optional ACE EPAM data file
       └── AC_H3_EPM_614092.csv
+
 ```
 
 ---
